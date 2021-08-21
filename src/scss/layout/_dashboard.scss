@@ -1,0 +1,68 @@
+.main-dashboard {
+    @include grid(4, 5rem);
+    margin-top: -8rem;
+    .card {
+        background-color: $card_bg;
+        padding: 3rem;
+        border-radius: 4px;
+    }
+}
+
+h2 {
+    font-weight: $bold;
+    color: $white;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    span {
+        font-size: 1.2rem;
+        color: $grey;
+        text-transform: uppercase;
+    }
+}
+
+.account {
+    color: $grey;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        margin-right: 1rem;
+    }
+}
+
+.update {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: $lime;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.down {
+    color: $red;
+}
+
+.fb {
+    border-top: 4px solid $facebook;
+}
+
+.tw {
+    border-top: 4px solid $twitter;
+}
+
+.ig {
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-color: hsl(37, 97%, 70%);
+}
+
+.yt {
+    border-top: 4px solid $youtube;
+}

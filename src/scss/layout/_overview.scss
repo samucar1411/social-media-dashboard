@@ -1,0 +1,40 @@
+.overview {
+    @include grid(4, 5rem);
+    margin-top: 5rem;
+    .card {
+        @include card($card_bg, 5px);
+    }
+}
+
+.upper {
+    margin-top: 2rem;
+    color: $grey;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        margin-left: 5rem
+    }
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: $lime;
+    margin-bottom: -5rem;
+    h4 {
+        color: $white;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-right: 4rem;
+    }
+    span {
+        font-size: 1.3rem;
+        img {
+            margin-bottom: .2rem;
+        }
+    }
+}
